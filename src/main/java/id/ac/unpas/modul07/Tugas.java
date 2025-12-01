@@ -185,7 +185,7 @@ public class Tugas extends JFrame {
         txtNama.setText("");
         txtNilai.setText("");
         cmbMatkul.setSelectedIndex(0);
-
+ 
         JOptionPane.showMessageDialog(this, "Data Berhasil Disimpan!");
         // Pindah ke tab "Daftar Nilai"
         tabbedPane.setSelectedIndex(1);
