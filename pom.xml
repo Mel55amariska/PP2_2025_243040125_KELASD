@@ -5,6 +5,20 @@
     <artifactId>PraktikumPemrogramanII</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>ch.epfl.lamp</groupId>
+            <artifactId>dotty-doc_0.26</artifactId>
+            <version>0.26.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.github.terma</groupId>
+            <artifactId>sql-on-json</artifactId>
+            <version>2.0.0</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>24</maven.compiler.release>

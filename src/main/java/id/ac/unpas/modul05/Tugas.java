@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Modul05;
+package id.ac.unpas.modul05;
 
 import java.awt.BorderLayout;
 import javax.swing.JButton;
@@ -17,7 +17,7 @@ import javax.swing.SwingUtilities;
  */
 public class Tugas {
      public static void main(String[]args){
-        SwingUtilities.invokeLater(new Runnable(){
+        SwingUtilities.invokeLater(new Runnable(){ 
             public void run(){
                 JFrame frame = new JFrame("Contoh BorderLayout");
                 frame.setSize(400,300);
